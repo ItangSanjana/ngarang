@@ -1,0 +1,232 @@
+
+/**
+ * General
+ */
+html {
+    font: 400 13px/normal Arial,Helvetica,sans-serif;
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: .75em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: .83em 0;
+}
+h4,
+p,
+blockquote,
+ul,
+fieldset,
+ol,
+dl,
+dir,
+menu {
+    margin: 1.12em 0;
+}
+h5 {
+    font-size: .83em;
+    margin: 1.5em 0;
+}
+h6 {
+    font-size: .75em;
+    margin: 1.67em 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-weight: bolder;
+}
+blockquote {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+i,
+cite,
+em,
+var,
+address {
+    font-style: italic;
+}
+pre,
+tt,
+code,
+kbd,
+samp {
+    font-family: monospace;
+}
+pre {
+    white-space: pre;
+}
+button,
+textarea,
+input,
+select {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 100%;
+}
+big {
+    font-size: 1.17em;
+}
+small,
+sub,
+sup {
+    font-size: .83em;
+}
+sub {
+    vertical-align: sub;
+}
+sup {
+    vertical-align: super;
+}
+thead,
+tbody,
+tfoot {
+    vertical-align: middle;
+}
+td,
+th,
+tr {
+    vertical-align: inherit;
+}
+s,
+strike,
+del {
+    text-decoration: line-through;
+}
+hr {
+    border: 1px inset #000;
+}
+ol {
+    list-style-type: decimal;
+}
+ol ul,
+ul ol,
+ul ul,
+ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+u,
+ins {
+    text-decoration: underline;
+}
+center {
+    text-align: center;
+}
+iframe,
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+img {
+    height: auto;
+}
+legend {
+    text-transform: uppercase;
+}
+:link,
+:visited {
+    text-decoration: underline;
+}
+
+/**
+ * Drupal
+ */
+/* modules/comment/comment.css */
+.indented {
+    margin-left: 0;
+}
+/* modules/system/system.admin.css */
+.system-themes-list-disabled .theme-selector {
+    display: inline;
+    padding-right: 0;
+    position: relative;
+}
+/* modules/system/system.base.css */
+.clearfix:after {
+    content: "";
+}
+/* modules/system/system.menus.css */
+.breadcrumb {
+    padding-bottom: 0;
+}
+li.expanded,
+li.collapsed,
+li.leaf {
+    padding: 0;
+}
+ul.menu {
+    padding-left: 2em;
+    text-align: inherit;
+}
+ul.inline li {
+    padding: 0;
+}
+/* modules/system/system.messages.css */
+div.messages {
+    background-position: left center;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+/* modules/system/system.theme.css */
+th {
+    background-color: #BFBFBF;
+    color: #FFFFFF;
+    text-align: inherit;
+}
+td,
+th {
+    border: 1px solid #000000;
+}
+/* modules/toolbar/toolbar.css */
+body.toolbar-drawer,
+body.toolbar {
+    padding-top: 0 !important;
+}
+#toolbar {
+    box-shadow: none;
+    max-width: 100%;
+    padding-right: 0;
+    position: static;
+}
+
+/**
+ * Ngarang
+ */
+/* All */
+input[type="submit"] + a,
+input[type="submit"] + input {
+    margin-left: 1em;
+}
+/* page */
+#page {
+    word-wrap: break-word;
+}
+/* header */
+#site-name {
+    font-size: 2em;
+    margin: 0.335em 0;
+}
+#site-name +
+#site-slogan {
+    margin-top: 1em;
+}
+/* comment */
+.comment {
+    border-top: 1px solid #BFBFBF;
+    margin-top: 1em;
+    padding-top: 1em;
+}

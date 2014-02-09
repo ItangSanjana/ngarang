@@ -1,0 +1,26 @@
+@media only screen and (min-width:401px) and (max-width:600px) {
+
+/**
+ * section
+ * grid
+ */
+.section {
+    width: 480px;
+}
+.section .grid {
+    width: 460px;
+}
+.grid .grid {
+    width: 100%;
+}
+
+/**
+ * drupal
+ */
+/* modules/system/system.admin.css */
+.system-themes-list-disabled .theme-selector {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+} /* end @media */

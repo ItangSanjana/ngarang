@@ -1,0 +1,25 @@
+name = Ngarang
+description = A quite simple theme.
+screenshot = images/screenshot.png
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[footer] = Footer
+
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/normalize-custom.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/styles.larger.css
+stylesheets[all][] = css/styles.large.css
+stylesheets[all][] = css/styles.medium.css
+stylesheets[all][] = css/styles.small.css
+stylesheets[all][] = css/styles.smaller.css
+stylesheets[all][] = css/styles.print.css
+
+scripts[] = js/index.js
