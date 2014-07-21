@@ -88,11 +88,11 @@
             <div id="name-and-slogan" class="grid">
               <?php if ($site_name): ?>
                 <?php if ($title): ?>
-                  <div id="site-name">
+                  <strong id="site-name">
                     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-                      <strong><?php print $site_name; ?></strong>
+                      <span><?php print $site_name; ?></span>
                     </a>
-                  </div>
+                  </strong>
                 <?php else: /* Use h1 when the content title is empty */ ?>
                   <h1 id="site-name">
                     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
@@ -114,13 +114,14 @@
       <?php if ($main_menu || $secondary_menu): ?>
         <div id="navigation">
           <div class="section clearfix">
-            <div class="navig grid">
+            <div class="nav grid">
               <?php print theme('links__system_main_menu', array(
                 'links' => $main_menu,
                 'attributes' => array(
                   'id' => 'main-menu',
                   'class' => array(
                     'links',
+                    'inline',
                     'clearfix'
                   )
                 ),
@@ -136,6 +137,7 @@
                   'id' => 'secondary-menu',
                   'class' => array(
                     'links',
+                    'inline',
                     'clearfix'
                   )
                 ),
