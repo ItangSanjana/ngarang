@@ -1,6 +1,13 @@
 @media only screen and (max-width:768px) {
 
 /**
+ * General
+ */
+html {
+    font-size: 75%;
+}
+
+/**
  * section
  * grid
  */
