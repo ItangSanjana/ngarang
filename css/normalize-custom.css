@@ -20,7 +20,8 @@ multicol,
 p {
     line-height: 1.6;
 }
-iframe {
+iframe,
+img {
     max-width: 100%;
 }
 img {
