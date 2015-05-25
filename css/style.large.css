@@ -1,54 +1,50 @@
 @media only screen and (min-width:1025px) {
 
-/**
- * General
- */
-html {
-    font-size: 100%;
-}
+    /**
+     * General
+     */
+    html {
+        font-size: 100%;
+    }
 
-/**
- * section
- * grid
- */
-.section {
-    width: 960px;
-}
-.section .grid {
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 940px;
-}
-.grid .grid {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
+    /**
+     * section
+     * grid
+     */
+    .section {
+        width: 960px;
+    }
+    .section .grid {
+        width: 940px;
+    }
+    .grid .grid {
+        width: 100%;
+    }
 
-/**
- * ngarang
- */
-/* content */
-.one-sidebar div#content.grid {
-    width: 700px;
-}
-.sidebar-first div#content.grid,
-.two-sidebars div#content.grid {
-    left: 240px;
-}
-.two-sidebars div#content.grid {
-    width: 460px;
-}
-/* sidebar */
-.one-sidebar div.sidebar.grid,
-.two-sidebars div.sidebar.grid {
-    width: 220px;
-}
-.two-sidebars div#sidebar-first.grid {
-    left: -480px;
-}
-.sidebar-first div.sidebar.grid {
-    left: -720px;
-}
+    /**
+     * ngarang
+     */
+    /* content */
+    .one-sidebar div#content.grid {
+        width: 700px;
+    }
+    .sidebar-first div#content.grid,
+    .two-sidebars div#content.grid {
+        left: 240px;
+    }
+    .two-sidebars div#content.grid {
+        width: 460px;
+    }
+    /* sidebar */
+    .one-sidebar div.sidebar.grid,
+    .two-sidebars div.sidebar.grid {
+        width: 220px;
+    }
+    .two-sidebars div#sidebar-first.grid {
+        left: -480px;
+    }
+    .sidebar-first div.sidebar.grid {
+        left: -720px;
+    }
 
 } /* end @media */
