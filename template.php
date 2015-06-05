@@ -91,7 +91,7 @@ function ngarang_preprocess_html(&$variables) {
   foreach ($elements as $name => $element) {
     drupal_add_html_head($element, $name);
   }
-  drupal_add_css('http://fonts.googleapis.com/css?family=Open+Sans', array(
+  drupal_add_css('//fonts.googleapis.com/css?family=Open+Sans', array(
     'type' => 'external',
     'every_page' => TRUE
   ));
