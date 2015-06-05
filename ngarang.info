@@ -1,6 +1,6 @@
 name = Ngarang
 description = A quite simple theme.
-screenshot = images/screenshot.png
+screenshot = img/screenshot.png
 core = 7.x
 engine = phptemplate
 
