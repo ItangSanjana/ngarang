@@ -52,3 +52,7 @@ strong#site-name {
     margin-top: 1em;
     padding-top: 1em;
 }
+.feed-icon {
+    display: inline-block;
+    margin-bottom: 1em;
+}

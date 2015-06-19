@@ -6,9 +6,10 @@ html {
     font-family: 'Open Sans',sans-serif;
 }
 button,
-textarea,
 input,
-select {
+optgroup,
+select,
+textarea {
     box-sizing: border-box;
     display: inline-block;
     max-width: 100%;
