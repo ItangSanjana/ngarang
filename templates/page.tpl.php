@@ -104,12 +104,12 @@
               <?php if ($site_slogan): ?>
                 <div id="site-slogan"><?php print $site_slogan; ?></div>
               <?php endif; ?>
-            </div> <!-- /#name-and-slogan -->
+            </div>
           <?php endif; ?>
 
           <?php print render($page['header']); ?>
-        </div> <!-- /.section -->
-      </div> <!-- /#header -->
+        </div>
+      </div>
 
       <?php if ($main_menu || $secondary_menu): ?>
         <div id="navigation">
@@ -148,8 +148,8 @@
                 ),
               )); ?>
             </div>
-          </div> <!-- /.section -->
-        </div> <!-- /#navigation -->
+          </div>
+        </div>
       <?php endif; ?>
 
       <?php if ($breadcrumb): ?>
@@ -199,26 +199,26 @@
             <?php endif; ?>
             <?php print render($page['content']); ?>
             <?php print $feed_icons; ?>
-          </div> <!-- /#content -->
+          </div>
 
           <?php if ($page['sidebar_first']): ?>
             <div id="sidebar-first" class="column sidebar grid">
               <?php print render($page['sidebar_first']); ?>
-            </div> <!-- /#sidebar-first -->
+            </div>
           <?php endif; ?>
 
           <?php if ($page['sidebar_second']): ?>
             <div id="sidebar-second" class="column sidebar grid">
               <?php print render($page['sidebar_second']); ?>
-            </div> <!-- /#sidebar-second -->
+            </div>
           <?php endif; ?>
-        </div> <!-- /#main -->
-      </div> <!-- /#main-wrapper -->
+        </div>
+      </div>
 
       <div id="footer">
         <div class="section clearfix">
           <?php print render($page['footer']); ?>
-        </div> <!-- /.section -->
-      </div> <!-- /#footer -->
-    </div> <!-- /#page -->
-  </div> <!-- /#page-wrapper -->
+        </div>
+      </div>
+    </div>
+  </div>

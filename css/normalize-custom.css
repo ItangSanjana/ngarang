@@ -48,15 +48,3 @@ th ul {
 th {
     background-color: #CCC;
 }
-
-/**
- * Ngarang
- */
-fieldset + fieldset,
-fieldset ~ table,
-form + form {
-    margin-top: 1em;
-}
-input[type="submit"] {
-    margin-right: 1em;
-}
