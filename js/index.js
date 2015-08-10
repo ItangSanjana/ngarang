@@ -3,7 +3,7 @@
 Drupal.behaviors.ngarang = {
     attach: function ( context, settings ) {
 
-        $( '.grid:first-child', context ).each(function() {
+        $( '.grid:first-child', context ).each( function() {
             if ( $( this ).length ) {
                 if ( !$( this ).parent().hasClass( 'clearfix' ) ) {
                     if ( !$(this).parent().hasClass( 'grid' ) ) {
@@ -12,6 +12,16 @@ Drupal.behaviors.ngarang = {
                 }
             }
         });
+
+        if ( $( 'input[type="text"]' ).length ) {
+            $( 'input[type="text"]', context ).each( function() {
+                if ( $( this ).closest( 'form' ).width() <= $( this ).outerWidth() ) {
+                    $( this ).css({
+                        width: '100%'
+                    })
+                }
+            });
+        }
 
     }
 };
