@@ -1,4 +1,4 @@
-@media only screen and (min-width:769px) and (max-width:1024px) {
+@media only screen and (min-width:641px) and (max-width:980px) {
 
     /**
      * section
@@ -8,32 +8,14 @@
         width: 720px;
     }
     .section .grid {
+        margin-left: 10px;
+        margin-right: 10px;
         width: 700px;
     }
     .grid .grid {
+        margin-left: 0;
+        margin-right: 0;
         width: 100%;
-    }
-
-    /**
-     * Ngarang
-     */
-    /* content */
-    .one-sidebar div#content.grid,
-    .two-sidebars div#content.grid {
-        width: 460px;
-    }
-    .sidebar-first div#content.grid,
-    .two-sidebars div#content.grid {
-        left: 240px;
-    }
-    /* sidebar */
-    .one-sidebar div.sidebar.grid,
-    .two-sidebars div#sidebar-first.grid {
-        width: 220px;
-    }
-    .two-sidebars div#sidebar-first.grid,
-    .sidebar-first div.sidebar.grid {
-        left: -480px;
     }
 
 } /* end @media */

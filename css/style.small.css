@@ -1,13 +1,11 @@
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:640px) {
 
     /**
      * section
      * grid
      */
     .section {
-        margin-left: 4%;
-        margin-right: 4%;
-        width: 92%;
+        width: 100%;
     }
     .section .grid {
         margin-left: 1%;

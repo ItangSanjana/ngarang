@@ -9,13 +9,7 @@
 .section .grid {
     display: inline;
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
     position: relative;
-}
-.grid .grid {
-    margin-left: 0;
-    margin-right: 0;
 }
 
 /**
